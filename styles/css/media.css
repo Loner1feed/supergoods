@@ -210,7 +210,17 @@
     max-width: 300px;
   }
 
+  .footer__wrap {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
   .header__phone {
     display: none;
+  }
+
+  .contact__row {
+    margin-bottom: 15px;
+    grid-gap: 15px;
   }
 }

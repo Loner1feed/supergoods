@@ -250,10 +250,25 @@ $gradientEnd: #EAF2F5;
         }
     }
 
+    .footer{
+        &__wrap{
+            flex-wrap: wrap;
+        }
+    }
+
     .header{
         &__phone{
             display: none;
         }
+    }
+
+    .contact{
+        &__row{
+            margin-bottom: 15px;
+            grid-gap: 15px;
+
+        }
+        &__col{}
     }
 
     
