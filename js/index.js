@@ -50,3 +50,11 @@ $(document).ready(function(){
 		$('body,html').animate({scrollTop: top}, 1500);
 	});
 });
+
+const popupOpen = (el) => {
+	$('.popups').fadeTo(1, 500);
+}
+
+const popupClose = () => {
+	$('.popups').fadeOut();
+}

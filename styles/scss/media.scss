@@ -121,6 +121,16 @@ $gradientEnd: #EAF2F5;
             margin-bottom: 30px;
         }
     }
+
+    .popup{
+        border-radius: 20px;
+        &__close{
+            padding-right: 30px;
+            border-top-right-radius: 20px;
+            border-top-left-radius: 20px;
+            
+        }
+    }
 }
 
 @media screen and (max-width: 530px){
@@ -239,4 +249,12 @@ $gradientEnd: #EAF2F5;
             }
         }
     }
+
+    .header{
+        &__phone{
+            display: none;
+        }
+    }
+
+    
 }

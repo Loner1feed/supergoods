@@ -92,6 +92,15 @@
   .accentBlock__separator {
     margin-bottom: 30px;
   }
+
+  .popup {
+    border-radius: 20px;
+  }
+  .popup__close {
+    padding-right: 30px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+  }
 }
 @media screen and (max-width: 530px) {
   .mainBanner__title {
@@ -199,5 +208,9 @@
   }
   .vision__item span {
     max-width: 300px;
+  }
+
+  .header__phone {
+    display: none;
   }
 }
